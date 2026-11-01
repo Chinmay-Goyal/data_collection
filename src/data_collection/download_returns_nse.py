@@ -59,7 +59,7 @@ except ImportError:
 # =============================== SETTINGS ===================================
 DATA_TYPE = "tri"        # "tri" = Total Return Index, "price" = price index (Close)
 SUFFIX = "TRI"           # appended to every column name: "<index>_<SUFFIX>"
-OUT_DIR = r"C:\Users\chinm\Dev\data_collection\Data"   # output folder
+OUT_DIR = r"C:\Users\chinm\Dev\data_collection\Data\NSE"   # output folder
 PREFIX = "nifty_tri"     # output file prefix
 START_YEAR = 1995        # first year to try for NEW indices (years with no data are skipped)
 PAUSE = 1.0              # seconds between requests (be polite to the server)
